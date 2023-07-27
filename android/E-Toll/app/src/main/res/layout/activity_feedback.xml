@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/grey"
+    tools:context=".FeedbackActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="55dp"/>
+
+
+
+    <EditText
+        android:id="@+id/reportET"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint=" Enter Your Report"
+        style="@style/Widget.Material3.Toolbar.Surface"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feedback"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/feedbackBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:hint=" Enter Your Feedback"
+        style="@style/Widget.Material3.Toolbar.Surface"/>
+
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:textColor="@color/grey"
+        android:backgroundTint="@color/purple_700"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>
